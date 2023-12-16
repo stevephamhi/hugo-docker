@@ -1,0 +1,25 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "My Hugo Site"
+theme = "themedemo1"  # Change this to the name of your theme
+
+[params]
+  author = "Your Name"
+  description = "A Hugo site generated with Docker"
+  keywords = "Hugo, Docker, Static Site"
+
+# Add any additional configuration settings specific to your site or theme
+# ...
+
+# Define menu items if needed
+[[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
